@@ -1,0 +1,21 @@
+# Site settings
+title: MMCV
+header-img: img/home-bg.png
+email: martin.crane@gmail.com
+copyright_name: MartinCrane
+description: > # this means to ignore newlines until "baseurl:"
+  coding
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: iomcoi
+github_username:  MartinCrane
+learn_profile: MartinCrane
+email_username: martin.crane@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
