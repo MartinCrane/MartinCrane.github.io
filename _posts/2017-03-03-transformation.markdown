@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transformation"
-date:   2017-03-03 14:05:26 +0000
+date:   2017-03-03 09:05:27 -0500
 ---
 
 
@@ -33,9 +33,12 @@ The form stores the user input as @shape.type and a scale as @unit. Then, I put 
 }
 ```
 
-Skew-left is a CSS class I made. What interested me about this is using a single input to drive several 3D distortions at once. This input is a number, but it could easily be replaced with a mouse position (or any stream of data). You can modify the ratio of how fast they change using algebra, which I haven't done in 15 years so I'm not going to start it here.
+Skew-left is a CSS class I made that handles the 3D distortions of the CSS. You can see how @shape.type updates the matrix3d tags with user values. What's interesting to me about this is using a single input (in this case, a number) to drive several 3D distortions at once. The user input is pretty static here, but it could easily be replaced with a mouse position (or any stream of data). You can modify the ratio of how fast the distortions change relative to each other using algebra, which I haven't done in 15 years so I'm not going to try here. But the possiblities are amazing. Here's a screenshot:
 
-I'll upload the site as soon as I figure out how to migrate it to postgres!!
+![Imgur](http://i.imgur.com/L5Pnm08.jpg)
+
+I'll upload the site as soon as I figure out how to migrate it to postgres! 
+
 
 
 
