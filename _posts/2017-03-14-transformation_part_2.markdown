@@ -39,3 +39,5 @@ twist();
 Check out what it looks like IRL [here](https://enigmatic-basin-52093.herokuapp.com/shapes/float). This is using the setInterval function to update the matrix 3d of the div every milisecond. The setInterval function (setInterval(function, miliseconds)) says do this function every x miliseconds. The twist() function just edits the matrix 3d CSS. It uses sin functions because sin never go above 1! We can use it to keep elements roatating within a fixed range. Pretty cool.
 
 Lastly, I combined the two ideas to make a page that moves with the mouse! This is definitely my favorite. Check it out [here](https://enigmatic-basin-52093.herokuapp.com/shapes/mousefloat). Inspect the code to see what I did.
+
+Also [this.](https://enigmatic-basin-52093.herokuapp.com/shapes/thirds)
