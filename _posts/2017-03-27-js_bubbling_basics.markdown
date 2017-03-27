@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS Bubbling Basics"
-date:   2017-03-27 13:15:32 +0000
+date:   2017-03-27 09:15:33 -0400
 ---
 
 
