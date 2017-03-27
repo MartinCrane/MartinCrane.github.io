@@ -30,7 +30,7 @@ You can use it to save energy by assigning one event listener to many different 
                 <h1>JUMP</h1>
             </div>
         </div>
-		```
+```
 				
 
 We can put one event listener on the container with the id "menu" and listen for clicks. That's what the following code is doing: 
@@ -45,7 +45,7 @@ But how can we tell a hop click from a skip click you might ask? Event listeners
 ```
 function bubbler(event) {
           let element = event.target.closest("div").dataset.action
-          let message = `event.target = ${event.target} // action = element`
+          let message = `event.target = ${event.target} // action = ${element}`
           alert(message)
         }
 ```
