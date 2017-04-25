@@ -30,7 +30,7 @@ h6.powered_by {
   margin-top: 0px;
 }
 a {
-  color: #404040;
+  color: black;
 }
 a:hover,
 a:focus {
@@ -68,6 +68,7 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -75,7 +76,7 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
@@ -83,7 +84,7 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
