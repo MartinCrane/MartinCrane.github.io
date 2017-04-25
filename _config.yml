@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: martin.crane@gmail.com
 copyright_name: MartinCrane
 description: > # this means to ignore newlines until "baseurl:"
-  a public notebook of everything code that I'm learning
+  a public code notebook
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: iomcoi
 github_username:  MartinCrane
